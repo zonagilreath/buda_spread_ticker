@@ -35,7 +35,7 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
     parser.add_argument('-c', "--concurrency", type=int, required=False,
-                        help='determine maximum thread; default is cpu-count * 5')
+                        help='determine maximum threads; default is cpu-count * 5')
     args = parser.parse_args()
 
     if args.concurrency:
