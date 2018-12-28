@@ -5,3 +5,5 @@ Spreadticker can be run from the command line by simply calling `$ python3 sprea
 `$ python3 spreadticker --concurrency 10` or `$ python3 spreadticker -c 10`
 
 If no such argument is provided, the maximum will be the default as calculated by Python's `concurrent.futures` module (# of available cpu's x 5).
+
+I have also included a simple notebook that can be executed to view live market spread results.
